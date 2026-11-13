@@ -2,6 +2,14 @@
 
 A simple Student Management app built with Angular (standalone components). It covers services and dependency injection, custom pipes, a custom directive, lifecycle hooks, component composition, and smart vs. presentational components.
 
+## Screenshots
+
+![Student list](screenshots/home.png)
+
+![Add student form](screenshots/add-student.png)
+
+![Student added to the list](screenshots/student-added.png)
+
 ## Features
 
 - View students A, B and C (name, course, fees, status)
