@@ -1,0 +1,16 @@
+<header class="topbar">
+  <div class="inner">
+    <div class="logo" aria-hidden="true">S</div>
+    <h1>Student Management</h1>
+  </div>
+</header>
+
+<main>
+  <section class="panel">
+    <app-student-form (studentSubmitted)="onStudentSubmitted($event)"></app-student-form>
+  </section>
+
+  <section class="panel">
+    <app-student-list></app-student-list>
+  </section>
+</main>
